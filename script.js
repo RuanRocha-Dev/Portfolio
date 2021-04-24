@@ -1,0 +1,21 @@
+let hamburguer = document.querySelector(".hamburguer");
+
+hamburguer.addEventListener("click", () => {
+    document.querySelector("#container").classList.toggle("show-menu");
+});
+
+
+let span = document.querySelector("#description");
+let box = document.getElementById("box")
+
+span.addEventListener("click", () =>{
+    if (box.style.visibility === "hidden") {
+        box.style.visibility = "visible"
+        span.innerHTML = "OCULTAR"
+    }
+    else{
+        box.style.visibility = "hidden"
+        span.innerHTML = "SAIBA MAIS"
+    }
+});
+
