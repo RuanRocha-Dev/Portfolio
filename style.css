@@ -584,24 +584,6 @@ header{
     max-height: 9rem;
 }
 
-.field-label{
-    position: absolute;
-    left: 0;
-    top: 2rem;
-    font-size: 1.2rem;
-    font-family: 'Josefin Slab', serif;
-    text-transform: uppercase;transition: all 0.3s ease;
-}
-
-.field:focus ~ label{
-    top: 0;
-    font-size: 1rem;
-}
-
-.field:focus{
-    border-bottom: 1px solid;
-}
-
 .submit{
     width: 90%;
     height: 2rem;

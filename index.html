@@ -169,18 +169,15 @@
                 <div class="contato-left"></div>
                 <div class="contato-right">
                     <h1>Contato</h1>
-                    <form>
+                    <form action="script.php" method="post">
                         <div class="input-group">
-                            <input name="nome" type="text" class="field">
-                            <label for="nome" class="field-label">Nome</label>
+                            <input name="nome" type="text" class="field" placeholder="Nome">
                         </div>
                         <div class="input-group">
-                            <input name="email" type="text" class="field">
-                            <label for="email" class="field-label">E-mail</label>
+                            <input name="email" type="text" class="field" placeholder="E-mail">
                         </div>
                         <div class="input-group">
-                            <textarea name="mensagem" class="field"></textarea>
-                            <label for="mensagem" class="field-label">Mensagem</label>
+                            <textarea name="mensagem" class="field" placeholder="Escreva sua mensagem"></textarea>
                         </div>
                         <button class="submit" type="submit">Enviar</button>
                     </form>
@@ -208,22 +205,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-<!-- 
-font-family: 'Baloo Da 2', cursive;
-font-family: 'Josefin Slab', serif;
-font-family: 'Mulish', sans-serif;
-
-@keyframes moveBanner{
-    0%{
-        transform: translateY(30rem) rotateY(-60deg);
-    }
-    100%{
-        transform: translateY(0) rotateY(0);
-        opacity: 1;
-    }
-}
--->
